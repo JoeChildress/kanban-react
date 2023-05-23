@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#kanban-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#kanban-container h1 {
+  font-size: 2em;
+}
+
+#buckets-container {
+  display: flex;
+  width: 1200px;
+  justify-content: space-evenly;
+}
+
+.card-container {
+  border: 1px solid black;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.7em;
+  width: 20%;
+}
+
+.task-card {
+  width: 90%;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3em;
+  margin-bottom: 5px;
+}
+
+.task-card button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#form {
+  margin: 1em 0 2.5em 0;
+}
+
+#form button {
+  margin-left: 5px;
+}
+
+.bucket-title {
+  margin-bottom: 0.75em;
+  font-weight: bold;
+}
