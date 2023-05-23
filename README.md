@@ -1,2 +1,2 @@
 # kanban-react
-Created with CodeSandbox
+A simple react built kanban app.
